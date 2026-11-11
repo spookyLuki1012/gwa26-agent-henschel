@@ -39,6 +39,10 @@ gwa26-agent-henschel/
 ├── pyproject.toml           # Paket- und Abhängigkeitskonfiguration (uv, Streamlit, Google ADK)
 ├── AGENTS.md                # Das „Gehirn“: System-Prompt, Aufgabenbeschreibung & 5 feste Regeln
 ├── PROJEKT_DOKUMENTATION.md # Diese Master-Dokumentation (wird laufend aktualisiert)
+├── drmartens_agent/         # Der Google ADK Agent
+│   ├── .env                 # Sicherer lokaler Speicherort für den Gemini API-Key (ignoriert von Git)
+│   ├── __init__.py          # Python-Paket-Initialisierung
+│   └── agent.py             # Google ADK Agent-Definition (gemini-2.5-flash) mit Dr. Martens Instruktionen
 ├── kontext/                 # Die Wissensbasis des Agenten (Single Source of Truth)
 │   ├── aarrr-stufe.md       # Definition von Stufe (Acquisition), Aufgabe & Kennzahl
 │   ├── marke.md             # Markentonalität und belegbare Fakten mit Quellenangaben
