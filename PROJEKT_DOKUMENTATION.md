@@ -36,6 +36,7 @@ Dieses Projekt demonstriert den Best-Practice-Aufbau eines spezialisierten KI-Ma
 ```text
 gwa26-agent-henschel/
 ├── .gitignore               # Schützt sensible Daten (.env API-Keys, .venv) vor dem Upload
+├── pyproject.toml           # Paket- und Abhängigkeitskonfiguration (uv, Streamlit, Google ADK)
 ├── AGENTS.md                # Das „Gehirn“: System-Prompt, Aufgabenbeschreibung & 5 feste Regeln
 ├── PROJEKT_DOKUMENTATION.md # Diese Master-Dokumentation (wird laufend aktualisiert)
 ├── kontext/                 # Die Wissensbasis des Agenten (Single Source of Truth)
